@@ -1,0 +1,63 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Mon Apr 05 20:39:16 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000002
+                   .org_2       code   0x000008    program   0x0000fa
+                   .org_3       code   0x000300    program   0x000010
+ .config_300000_DOSDISP.O    romdata   0x300000    program   0x000001
+ .config_300001_DOSDISP.O    romdata   0x300001    program   0x000001
+ .config_300002_DOSDISP.O    romdata   0x300002    program   0x000001
+ .config_300003_DOSDISP.O    romdata   0x300003    program   0x000001
+ .config_300005_DOSDISP.O    romdata   0x300005    program   0x000001
+ .config_300006_DOSDISP.O    romdata   0x300006    program   0x000001
+ .config_300008_DOSDISP.O    romdata   0x300008    program   0x000001
+ .config_300009_DOSDISP.O    romdata   0x300009    program   0x000001
+ .config_30000A_DOSDISP.O    romdata   0x30000a    program   0x000001
+ .config_30000B_DOSDISP.O    romdata   0x30000b    program   0x000001
+ .config_30000C_DOSDISP.O    romdata   0x30000c    program   0x000001
+ .config_30000D_DOSDISP.O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000001      
+                            0x000008    0x000101      
+                            0x000300    0x00030f      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            280 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      RSI   0x0000d8    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp.asm
+                    SINT0   0x0000ea    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp.asm
+                      ST2   0x0000f4    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp.asm
+                    delay   0x0000fa    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp.asm
+                   inicio   0x00000a    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp.asm
+                      lee   0x000046    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp.asm
+                     loop   0x00006e    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   inicio   0x00000a    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp.asm
+                      lee   0x000046    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp.asm
+                     loop   0x00006e    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp.asm
+                      RSI   0x0000d8    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp.asm
+                    SINT0   0x0000ea    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp.asm
+                      ST2   0x0000f4    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp.asm
+                    delay   0x0000fa    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp.asm
+
+

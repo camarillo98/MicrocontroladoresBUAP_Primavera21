@@ -1,0 +1,57 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Sun May 09 19:41:39 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x00004e
+                   .org_2       code   0x000300    program   0x000006
+.config_300000_4DISP_PWM.O    romdata   0x300000    program   0x000001
+.config_300001_4DISP_PWM.O    romdata   0x300001    program   0x000001
+.config_300002_4DISP_PWM.O    romdata   0x300002    program   0x000001
+.config_300003_4DISP_PWM.O    romdata   0x300003    program   0x000001
+.config_300005_4DISP_PWM.O    romdata   0x300005    program   0x000001
+.config_300006_4DISP_PWM.O    romdata   0x300006    program   0x000001
+.config_300008_4DISP_PWM.O    romdata   0x300008    program   0x000001
+.config_300009_4DISP_PWM.O    romdata   0x300009    program   0x000001
+.config_30000A_4DISP_PWM.O    romdata   0x30000a    program   0x000001
+.config_30000B_4DISP_PWM.O    romdata   0x30000b    program   0x000001
+.config_30000C_4DISP_PWM.O    romdata   0x30000c    program   0x000001
+.config_30000D_4DISP_PWM.O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00004d      
+                            0x000300    0x000305      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            96 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      ini   0x00003e    program     static C:\Users\ISIS\Documents\Microcontroladores\4disp_pwm.asm
+                      lee   0x00002a    program     static C:\Users\ISIS\Documents\Microcontroladores\4disp_pwm.asm
+                     loop   0x000026    program     static C:\Users\ISIS\Documents\Microcontroladores\4disp_pwm.asm
+                     nada   0x000046    program     static C:\Users\ISIS\Documents\Microcontroladores\4disp_pwm.asm
+                  retardo   0x000042    program     static C:\Users\ISIS\Documents\Microcontroladores\4disp_pwm.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     loop   0x000026    program     static C:\Users\ISIS\Documents\Microcontroladores\4disp_pwm.asm
+                      lee   0x00002a    program     static C:\Users\ISIS\Documents\Microcontroladores\4disp_pwm.asm
+                      ini   0x00003e    program     static C:\Users\ISIS\Documents\Microcontroladores\4disp_pwm.asm
+                  retardo   0x000042    program     static C:\Users\ISIS\Documents\Microcontroladores\4disp_pwm.asm
+                     nada   0x000046    program     static C:\Users\ISIS\Documents\Microcontroladores\4disp_pwm.asm
+
+

@@ -1,0 +1,117 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Sun Mar 07 13:31:10 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000002
+                   .org_2       code   0x000008    program   0x00011a
+.config_300000_E4DISP7SINT0_TMR0.O    romdata   0x300000    program   0x000001
+.config_300001_E4DISP7SINT0_TMR0.O    romdata   0x300001    program   0x000001
+.config_300002_E4DISP7SINT0_TMR0.O    romdata   0x300002    program   0x000001
+.config_300003_E4DISP7SINT0_TMR0.O    romdata   0x300003    program   0x000001
+.config_300005_E4DISP7SINT0_TMR0.O    romdata   0x300005    program   0x000001
+.config_300006_E4DISP7SINT0_TMR0.O    romdata   0x300006    program   0x000001
+.config_300008_E4DISP7SINT0_TMR0.O    romdata   0x300008    program   0x000001
+.config_300009_E4DISP7SINT0_TMR0.O    romdata   0x300009    program   0x000001
+.config_30000A_E4DISP7SINT0_TMR0.O    romdata   0x30000a    program   0x000001
+.config_30000B_E4DISP7SINT0_TMR0.O    romdata   0x30000b    program   0x000001
+.config_30000C_E4DISP7SINT0_TMR0.O    romdata   0x30000c    program   0x000001
+.config_30000D_E4DISP7SINT0_TMR0.O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000001      
+                            0x000008    0x000121      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            296 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      RSI   0x00010a    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                    SINT0   0x00011c    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                        a   0x0000b4    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                        b   0x0000c2    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                        c   0x0000d0    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     cero   0x000028    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                    cinco   0x00006e    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                   cuatro   0x000060    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                        d   0x0000de    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                      dos   0x000044    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                        e   0x0000ec    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     esp0   0x00002c    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     esp1   0x00003a    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     esp2   0x000048    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     esp3   0x000056    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     esp4   0x000064    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     esp5   0x000072    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     esp6   0x000080    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     esp7   0x00008e    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     esp8   0x00009c    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     esp9   0x0000aa    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     espa   0x0000b8    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     espb   0x0000c6    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     espc   0x0000d4    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     espd   0x0000e2    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     espe   0x0000f0    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     espf   0x0000fe    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                        f   0x0000fa    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                   inicio   0x00000a    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                    nueve   0x0000a6    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     ocho   0x000098    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     seis   0x00007c    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                    siete   0x00008a    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     tres   0x000052    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                      uno   0x000036    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   inicio   0x00000a    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     cero   0x000028    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     esp0   0x00002c    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                      uno   0x000036    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     esp1   0x00003a    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                      dos   0x000044    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     esp2   0x000048    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     tres   0x000052    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     esp3   0x000056    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                   cuatro   0x000060    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     esp4   0x000064    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                    cinco   0x00006e    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     esp5   0x000072    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     seis   0x00007c    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     esp6   0x000080    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                    siete   0x00008a    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     esp7   0x00008e    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     ocho   0x000098    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     esp8   0x00009c    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                    nueve   0x0000a6    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     esp9   0x0000aa    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                        a   0x0000b4    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     espa   0x0000b8    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                        b   0x0000c2    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     espb   0x0000c6    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                        c   0x0000d0    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     espc   0x0000d4    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                        d   0x0000de    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     espd   0x0000e2    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                        e   0x0000ec    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     espe   0x0000f0    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                        f   0x0000fa    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                     espf   0x0000fe    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                      RSI   0x00010a    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+                    SINT0   0x00011c    program     static C:\Users\ISIS\Documents\Microcontroladores\E4disp7sINT0_TMR0.asm
+
+

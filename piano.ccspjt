@@ -1,0 +1,24 @@
+[PROJECT]
+Target=C:\Users\ISIS\Documents\Microcontroladores\piano.hex
+Processor_Text=PIC18F4550
+CCSVerions=5.025
+Compiler=PCH
+[Target Data]
+FileList=piano.c
+[Directories]
+Include=
+[C:\Users\ISIS\Documents\Microcontroladores\piano]
+Type=4
+[mru-list]
+1=piano.c
+[Units]
+Count=1
+1=piano (main)
+
+[ProjectLog]
+Days=1
+D1=16-05-2021
+D1_L=3
+D1_L1=[8004]Project Opened.
+D1_L2=[11417]Started Editing.
+D1_L3=[11503]Project Closed.

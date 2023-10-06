@@ -1,0 +1,85 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Mon Feb 22 23:35:51 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x0000e4
+.config_300000_DISPLAY7_RETROCESO.O    romdata   0x300000    program   0x000001
+.config_300001_DISPLAY7_RETROCESO.O    romdata   0x300001    program   0x000001
+.config_300002_DISPLAY7_RETROCESO.O    romdata   0x300002    program   0x000001
+.config_300003_DISPLAY7_RETROCESO.O    romdata   0x300003    program   0x000001
+.config_300005_DISPLAY7_RETROCESO.O    romdata   0x300005    program   0x000001
+.config_300006_DISPLAY7_RETROCESO.O    romdata   0x300006    program   0x000001
+.config_300008_DISPLAY7_RETROCESO.O    romdata   0x300008    program   0x000001
+.config_300009_DISPLAY7_RETROCESO.O    romdata   0x300009    program   0x000001
+.config_30000A_DISPLAY7_RETROCESO.O    romdata   0x30000a    program   0x000001
+.config_30000B_DISPLAY7_RETROCESO.O    romdata   0x30000b    program   0x000001
+.config_30000C_DISPLAY7_RETROCESO.O    romdata   0x30000c    program   0x000001
+.config_30000D_DISPLAY7_RETROCESO.O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x0000e3      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            240 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                        a   0x000082    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                        b   0x00008e    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                        c   0x00009a    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                     cero   0x00000a    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                    cinco   0x000046    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                   cuatro   0x00003a    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                        d   0x0000a6    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                      dos   0x000022    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                        e   0x0000b2    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                        f   0x0000be    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                    llama   0x0000da    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                     nada   0x0000ce    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                    nueve   0x000076    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                     ocho   0x00006a    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                   repite   0x0000d6    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                  retardo   0x0000ca    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                     seis   0x000052    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                    siete   0x00005e    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                     tres   0x00002e    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                      uno   0x000016    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     cero   0x00000a    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                      uno   0x000016    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                      dos   0x000022    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                     tres   0x00002e    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                   cuatro   0x00003a    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                    cinco   0x000046    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                     seis   0x000052    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                    siete   0x00005e    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                     ocho   0x00006a    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                    nueve   0x000076    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                        a   0x000082    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                        b   0x00008e    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                        c   0x00009a    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                        d   0x0000a6    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                        e   0x0000b2    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                        f   0x0000be    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                  retardo   0x0000ca    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                     nada   0x0000ce    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                   repite   0x0000d6    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+                    llama   0x0000da    program     static C:\Users\ISIS\Documents\Microcontroladores\display7_retroceso.asm
+
+

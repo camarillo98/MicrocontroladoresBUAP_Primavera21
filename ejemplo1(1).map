@@ -1,0 +1,55 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Tue Feb 16 18:30:24 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000030
+.config_300000_EJEMPLO1(1).O    romdata   0x300000    program   0x000001
+.config_300001_EJEMPLO1(1).O    romdata   0x300001    program   0x000001
+.config_300002_EJEMPLO1(1).O    romdata   0x300002    program   0x000001
+.config_300003_EJEMPLO1(1).O    romdata   0x300003    program   0x000001
+.config_300005_EJEMPLO1(1).O    romdata   0x300005    program   0x000001
+.config_300006_EJEMPLO1(1).O    romdata   0x300006    program   0x000001
+.config_300008_EJEMPLO1(1).O    romdata   0x300008    program   0x000001
+.config_300009_EJEMPLO1(1).O    romdata   0x300009    program   0x000001
+.config_30000A_EJEMPLO1(1).O    romdata   0x30000a    program   0x000001
+.config_30000B_EJEMPLO1(1).O    romdata   0x30000b    program   0x000001
+.config_30000C_EJEMPLO1(1).O    romdata   0x30000c    program   0x000001
+.config_30000D_EJEMPLO1(1).O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00002f      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            60 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   correi   0x00000e    program     static C:\Users\ISIS\Documents\Microcontroladores\ejemplo1(1).asm
+                    llama   0x000026    program     static C:\Users\ISIS\Documents\Microcontroladores\ejemplo1(1).asm
+                     nada   0x00001a    program     static C:\Users\ISIS\Documents\Microcontroladores\ejemplo1(1).asm
+                   repite   0x000022    program     static C:\Users\ISIS\Documents\Microcontroladores\ejemplo1(1).asm
+                  retardo   0x000016    program     static C:\Users\ISIS\Documents\Microcontroladores\ejemplo1(1).asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   correi   0x00000e    program     static C:\Users\ISIS\Documents\Microcontroladores\ejemplo1(1).asm
+                  retardo   0x000016    program     static C:\Users\ISIS\Documents\Microcontroladores\ejemplo1(1).asm
+                     nada   0x00001a    program     static C:\Users\ISIS\Documents\Microcontroladores\ejemplo1(1).asm
+                   repite   0x000022    program     static C:\Users\ISIS\Documents\Microcontroladores\ejemplo1(1).asm
+                    llama   0x000026    program     static C:\Users\ISIS\Documents\Microcontroladores\ejemplo1(1).asm
+
+

@@ -1,0 +1,65 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Wed Apr 21 11:53:33 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000002
+                   .org_2       code   0x000008    program   0x000002
+                   .org_3       code   0x000018    program   0x0000b0
+                   .org_4       code   0x000300    program   0x000010
+.config_300000_DOSDISP2.O    romdata   0x300000    program   0x000001
+.config_300001_DOSDISP2.O    romdata   0x300001    program   0x000001
+.config_300002_DOSDISP2.O    romdata   0x300002    program   0x000001
+.config_300003_DOSDISP2.O    romdata   0x300003    program   0x000001
+.config_300005_DOSDISP2.O    romdata   0x300005    program   0x000001
+.config_300006_DOSDISP2.O    romdata   0x300006    program   0x000001
+.config_300008_DOSDISP2.O    romdata   0x300008    program   0x000001
+.config_300009_DOSDISP2.O    romdata   0x300009    program   0x000001
+.config_30000A_DOSDISP2.O    romdata   0x30000a    program   0x000001
+.config_30000B_DOSDISP2.O    romdata   0x30000b    program   0x000001
+.config_30000C_DOSDISP2.O    romdata   0x30000c    program   0x000001
+.config_30000D_DOSDISP2.O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000001      
+                            0x000008    0x000009      
+                            0x000018    0x0000c7      
+                            0x000300    0x00030f      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            208 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      RSI   0x0000a0    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp2.asm
+                    SINT0   0x0000b2    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp2.asm
+                      ST2   0x0000ba    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp2.asm
+                    delay   0x0000c0    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp2.asm
+                   inicio   0x00001a    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp2.asm
+                      lee   0x000056    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp2.asm
+                     loop   0x00006a    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp2.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   inicio   0x00001a    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp2.asm
+                      lee   0x000056    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp2.asm
+                     loop   0x00006a    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp2.asm
+                      RSI   0x0000a0    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp2.asm
+                    SINT0   0x0000b2    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp2.asm
+                      ST2   0x0000ba    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp2.asm
+                    delay   0x0000c0    program     static C:\Users\ISIS\Documents\Microcontroladores\dosdisp2.asm
+
+
